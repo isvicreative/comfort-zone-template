@@ -20,7 +20,8 @@ const WHATSAPP_MESSAGE = "Olá! Gostaria de agendar uma sessão de terapia.";
 
 const AboutSection = () => {
   // Gera o link do WhatsApp
-  const whatsappLink = `https://wa.me/$5551997652633?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
+const whatsappLink = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
+
 
   return (
     <section id="sobre" className="py-16 md:py-24 px-4 bg-gradient-to-br from-background to-accent/30">
