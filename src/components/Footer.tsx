@@ -10,13 +10,13 @@ import { Mail, Instagram, MessageCircle, Heart } from "lucide-react";
  */
 
 // 📧 EDITE AQUI: E-mail de contato
-const EMAIL = "psicologia@exemplo.com.br";
+const EMAIL = "isvicreative@gmail.com.br";
 
 // 📱 EDITE AQUI: Usuário do Instagram (sem @)
-const INSTAGRAM_USERNAME = "psicologa.exemplo";
+const INSTAGRAM_USERNAME = "https://www.instagram.com/isvicreative/";
 
 // 📱 EDITE AQUI: Número do WhatsApp (formato internacional)
-const WHATSAPP_NUMBER = "5511999999999";
+const WHATSAPP_NUMBER = "5551997652633";
 
 const Footer = () => {
   // Links de redes sociais - EDITE AS CONSTANTES ACIMA
