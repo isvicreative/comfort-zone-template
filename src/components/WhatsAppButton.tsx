@@ -19,7 +19,8 @@ const WHATSAPP_MESSAGE = "Olá! Gostaria de saber mais sobre a terapia.";
 
 const WhatsAppButton = () => {
   // Gera o link do WhatsApp
-  const whatsappLink = `https://wa.me/$5551997652633?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
+const whatsappLink = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
+
 
   return (
     <a
