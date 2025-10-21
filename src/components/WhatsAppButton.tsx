@@ -12,14 +12,14 @@ import { MessageCircle } from "lucide-react";
  */
 
 // 📱 EDITE AQUI: Número do WhatsApp (formato internacional sem + ou espaços)
-const WHATSAPP_NUMBER = "5511999999999"; // Exemplo: 5511999999999
+const WHATSAPP_NUMBER = "5551997652633"; // Exemplo: 5511999999999
 
 // 💬 EDITE AQUI: Mensagem padrão ao clicar no botão
 const WHATSAPP_MESSAGE = "Olá! Gostaria de saber mais sobre a terapia.";
 
 const WhatsAppButton = () => {
   // Gera o link do WhatsApp
-  const whatsappLink = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
+  const whatsappLink = `https://wa.me/$5551997652633?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
 
   return (
     <a
